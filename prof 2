@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real produt, desc, soma, soma1
+		
+		escreva("qual valor do produto? ")
+		leia (produt)
+		escreva ("qual o deconto a ser aplicado? ")
+		leia (desc)
+
+		soma=produt-(produt*desc/100)
+		soma1= (produt*desc/100)
+
+		escreva("seu produro saiu no valor de ", soma, "o desconto aplicado foi de", soma1)
+	}
+}
