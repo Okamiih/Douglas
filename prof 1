@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+       real quantc, valora, soma1, soma2
+       
+
+       escreva ("qual a quantidades de carros ? ")
+       leia (quantc)
+
+       escreva ("qual valor do aluguel ? ")
+       leia (valora)
+
+       soma1=quantc*valora
+       soma2= (quantc-quantc*20/100)*valora*12
+
+       escreva ("os valores mensais  ", soma1, " eos valores anuais ", soma2)
+       
+
+
+
+
+		
+	}
+}
