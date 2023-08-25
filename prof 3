@@ -1,0 +1,37 @@
+programa
+{
+	
+	funcao inicio()
+	{
+programa
+{
+	
+	funcao inicio()
+	{
+		real altura, peso, soma
+		cadeia nome
+		
+		escreva ("qual seu nome? ")
+		leia (nome)
+		
+		escreva ("qual seu peso")
+		leia (peso)
+
+		escreva("qual sua altura?")
+		leia (altura)
+
+		soma= peso/(altura*altura)
+
+		se (soma < 20 ) {
+			escreva ("abaixo do peso")
+		}
+		senao se (soma > 19  e  soma < 26 ) {
+			escreva (" peso ideal")
+		}
+		senao se (soma > 25 e soma < 29 ) {
+			escreva(" esta acima do peso")
+		}
+		senao {
+			escreva ("esta obeso")
+		}
+	
