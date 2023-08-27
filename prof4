@@ -1,0 +1,39 @@
+programa
+{
+	real soma, salario
+       cadeia cargo
+       inteiro codigo
+      
+	
+	funcao inicio()
+	{
+     
+      
+        escreva("1 - Desenvolvedor Java\n","2 - Analista de Redes\n","3 - Arquiteto DevOps\n","4 - Técnico de Suporte\n","Digite o código do cargo (1 a 4): \n")
+		leia(codigo) //ok
+		
+		escreva("Qual é o seu salário? ")
+		leia(salario)//ok
+
+		se (codigo == 1) {
+			cargo = "Desenvolvedor Java"
+			soma = salario + (salario-salario*30/100)
+		}
+		senao se (codigo == 2) {
+			cargo = "Analista de Redes"
+			soma = salario + (salario-salario*25/100)
+		}
+		senao se (codigo == 3) {
+			cargo = "Arquiteto DevOps"
+			soma = salario + (salario-salario*50/100)
+		}
+		senao se (codigo == 4) {
+			cargo = "Técnico de Suporte"
+			soma = salario + (salario-salario*13/100)
+		}
+		senao se (codigo >= 5 ) {
+			escreva("Código de cargo inválido")
+		}
+		escreva("seu cargo e ",cargo, "e seu salario eh 4", soma)
+	}
+}
