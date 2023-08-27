@@ -1,0 +1,37 @@
+programa
+{ 
+
+
+    inclua biblioteca Matematica --> mat
+
+real a, b, c, x1, x2, delta, b2
+	
+	funcao inicio()
+	{
+	escreva ("qual valor de A? ")
+	leia (a)
+	escreva("qual o valor de b? ")
+		leia (b)
+		escreva("qual valor de c ")
+		leia(c)
+
+b2 = b*b
+delta = b2-(4*a*c)
+ se(delta<0 ou (2*a)==0)
+        {
+            escreva("Impossível Calcular", "\n") 
+        }
+senao 
+
+        {
+        x1 = -b + (Matematica.raiz(delta, 2)) / (2*a)
+        x2 = -b - (Matematica.raiz(delta, 2)) / (2*a)
+            escreva("As raízes da equação sao:")
+            escreva("x1 =", x1)
+            escreva("x2 =", x2)
+	
+}
+
+		
+	}
+}
