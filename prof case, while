@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+    inteiro opcao
+    faca{
+     escreva("  \nescolha uma opção: \n", "opção 1\n","opão 2\n", "opçao 3\n")
+     leia(opcao)
+
+     escolha (opcao) {
+
+        caso 1:
+          limpa()
+         	escreva("oi") 
+          pare
+          caso 2:
+            limpa()
+   	         escreva("como vai") 
+              pare
+               caso 3:
+               limpa()
+   	            escreva("xauzinho")
+                pare
+                 caso contrario:
+                  limpa() 
+                  escreva("numero invalido\n\")}
+
+    }enquanto(opcao!=3)
+}
+}
